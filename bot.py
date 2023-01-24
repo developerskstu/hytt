@@ -445,7 +445,7 @@ def download_video(message, video):
         return 2, "", caption, quote, filename
     else:
         filename += "." + path.split(".")[-1]
-        caption = f"{title} .mkv\n\n<b>Topic</b>: {topic}"
+        caption = f"{title} .mkv"
         return 0, path, caption, quote, filename
 
 
